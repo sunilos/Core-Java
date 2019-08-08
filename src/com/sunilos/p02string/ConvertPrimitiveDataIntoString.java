@@ -1,4 +1,4 @@
-package com.sunilos.p01basics;
+package com.sunilos.p02string;
 
 /**
  * Converts Primitive data into Strings.
