@@ -1,13 +1,12 @@
 # Applied Core Java
 
-1. Basics
-1. Variable and Operators
+1. Basics, Variable and Operators
+1. String and Datetime handling
 1. Control Statements
 1. Arrays  
-1. Collection
-1. Datetime
-1. OOP
-1. Classes and Object
+1. OOP, Classes and Objects
 1. Exception Handling
+1. Collection
 1. I/O
-1. Multithreaded Programming
+1. Concurrency & Thread 
+1. GUI Swing/AWT
