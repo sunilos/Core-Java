@@ -1,11 +1,11 @@
 package com.sunilos.p01basics;
 
 /**
- * Java training example source code developed by sunRays Technologies, Indore
- * Copyright (c) 2008 sunRays Technologies
+ * Java training example source code developed by SunilOS, Indore
+ * Copyright (c) 2008 SunilOS 
  * @date 08/08/08
  * @version 1.0
- * @author sunRays Developer
+ * @author SunilOS 
  * 
  */
 
