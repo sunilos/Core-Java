@@ -1,11 +1,13 @@
 package com.sunilos.p01basics;
 
-/**
- * @author  SunilOS
+/* This example is for taking run time arguments 
+ * then parse them into integer type for division.
+ * 
  * @version 1.0
- * @Copyright (c) SunilOS
- * 
- * 
+ * @since 16 Nov 2014
+ * @author Sunil Sahu
+ * @Copyright (c) Sunil Sahu
+ * @url www.sunilbooks.com
  */
 
 public class Division {
