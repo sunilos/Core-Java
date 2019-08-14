@@ -1,11 +1,13 @@
 package com.sunilos.p04controlstmt;
 
 /**
- * Example class for IF-ELSE control statement
+ * A simple most example in JAVA that will print Hello SUNRAYS at console. This program will be your very first program in Java.
  * 
- * @author SunilOS
  * @version 1.0
- * @Copyright (c) SunilOS
+ * @since 16 Nov 2014
+ * @author Sunil Sahu
+ * @Copyright (c) Sunil Sahu
+ * @url www.sunilbooks.com
  */
 
 public class IfElse {
