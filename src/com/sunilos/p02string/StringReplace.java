@@ -1,10 +1,13 @@
 package com.sunilos.p02string;
 
-/*
- * @author  SunilOS
+/**
+ * Program to replace the string
+ * 
  * @version 1.0
- * @Copyright (c) SunilOS
- *
+ * @since 16 Nov 2014
+ * @author Sunil Sahu
+ * @Copyright (c) Sunil Sahu
+ * @url www.sunilbooks.com
  */
 
 public class StringReplace {
