@@ -1,10 +1,12 @@
 package com.sunilos.p01basics;
 
-/**
- * @author  SunilOS
- * @version 1.0
- * @Copyright (c) SunilOS
+/* Runtime argument passing with division 
  * 
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author Sunil Sahu
+ * @Copyright (c) Sunil Sahu
+ * @url www.sunilbooks.com
  */
 
 public class Division1 {
