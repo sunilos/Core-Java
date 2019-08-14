@@ -1,11 +1,13 @@
 package com.sunilos.p02string;
 
 /**
- * @author  SunilOS
- * @version 1.0
- * @Copyright (c) SunilOS
+ * Program to check the string methods
  * 
- * Test String methods
+ * @version 1.0
+ * @since 16 Nov 2014
+ * @author Sunil Sahu
+ * @Copyright (c) Sunil Sahu
+ * @url www.sunilbooks.com
  */
 
 public class TestString {
