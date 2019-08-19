@@ -10,8 +10,8 @@
 1. I/O
 1. Concurrency & Thread 
 1. GUI Swing/AWT
-1. Lambda Expression (TODO)
-1. Concurrent Collection  (TODO) 
+1. Lambda Expression
+1. Concurrent Collection  
 
 # Tutorials
 
