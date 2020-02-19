@@ -3,7 +3,7 @@ package com.sunilos.p13ref;
 import java.lang.reflect.Method;
 import java.util.Date;
 
-import com.sunilbooks.selflearnjava.oop.Person;
+import com.sunilos.p06oop.Person;
 
 /**
  * Invokes methods to set and get values using reflection API

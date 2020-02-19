@@ -1,11 +1,8 @@
 package com.sunilos.p13ref;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.Date;
 
-import com.sunilbooks.selflearnjava.oop.Person;
+import com.sunilos.p06oop.Person;
 
 /**
  * Create instance of a class using reflection API and print the class

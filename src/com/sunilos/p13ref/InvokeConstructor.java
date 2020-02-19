@@ -3,7 +3,7 @@ package com.sunilos.p13ref;
 import java.lang.reflect.Constructor;
 import java.util.Date;
 
-import com.sunilbooks.selflearnjava.oop.Person;
+import com.sunilos.p06oop.Person;
 
 /**
  * Creates an instance using constructor. Constructor is invoked by reflection
