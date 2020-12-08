@@ -1,7 +1,7 @@
 package com.sunilos.p16lambda;
 
 /**
- * Test class of Lambda functions
+ * Test class for Lambda functions
  * 
  * @author Sunil Sahu
  * 
