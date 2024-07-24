@@ -1,9 +1,9 @@
 package com.sunilos.p01basics;
 
- /* This example is for taking run time arguments 
- * then parse them into integer type for addition.
+/* This example demonstrates taking runtime arguments,
+ * then parsing them into integer type for addition.
  * 
- * @version 1.0
+ * @version 1.1
  * @since 16 Nov 2014
  * @author Sunil Sahu
  * @Copyright (c) Sunil Sahu
@@ -12,13 +12,23 @@ package com.sunilos.p01basics;
 
 public class Add {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
+        // Check if the correct number of arguments are provided
+        if (args.length != 2) {
+            System.out.println("Please provide exactly two integer arguments.");
+            return;
+        }
 
-		int sum = a + b;
+        try {
+            int a = Integer.parseInt(args[0]);
+            int b = Integer.parseInt(args[1]);
 
-		System.out.println("Sum is " + sum);
-	}
+            int sum = a + b;
+
+            System.out.println("Sum is " + sum);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input. Please enter valid integers.");
+        }
+    }
 }
