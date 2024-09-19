@@ -1,43 +1,28 @@
-Here's an enhanced version of your Java code with added documentation and explanations:
-
 ```java
-package com.sunilos.p01basics;
-
 /**
- * This class demonstrates how to take runtime arguments from the command line,
- * parse them as integers, and perform addition.
- * <p>
- * The program expects exactly two integer arguments. If the correct number of arguments
- * is not provided, or if the arguments cannot be parsed as integers, an error message is shown.
- * </p>
- * <p>
- * Example usage: 
- * <pre>
- * java com.sunilos.p01basics.Add 5 10
- * </pre>
- * This will output: 
- * <pre>
- * Sum is 15
- * </pre>
- * </p>
+ * The Add class demonstrates the usage of runtime arguments for
+ * performing addition of two integers.
  * 
+ * This program expects two command-line arguments, which are parsed 
+ * as integers and then added. The sum is printed to the console.
+ * 
+ * If the user does not provide exactly two arguments, or if the inputs 
+ * are not valid integers, appropriate error messages are displayed.
+ * 
+ * @author Sunil Sahu
  * @version 1.1
  * @since 16 Nov 2014
- * @author Sunil Sahu
- * @copyright (c) Sunil Sahu
+ * @Copyright (c) Sunil Sahu
  * @url www.sunilbooks.com
  */
 public class Add {
 
     /**
-     * The entry point of the program.
-     * <p>
-     * This method checks if exactly two arguments are provided, parses them to integers,
-     * adds them, and prints the result. If there is any issue with the arguments, an
-     * appropriate error message is displayed.
-     * </p>
-     * 
-     * @param args command-line arguments (expected to be two integers)
+     * The main method is the entry point of the application.
+     * It takes command-line arguments, parses them into integers, 
+     * and performs their addition.
+     *
+     * @param args The runtime arguments, expected to be two integers.
      */
     public static void main(String[] args) {
 
@@ -48,29 +33,25 @@ public class Add {
         }
 
         try {
-            // Parse arguments to integers
+            // Parse the arguments into integers
             int a = Integer.parseInt(args[0]);
             int b = Integer.parseInt(args[1]);
 
-            // Perform addition
+            // Calculate the sum of the two integers
             int sum = a + b;
 
-            // Print the result
+            // Output the sum to the console
             System.out.println("Sum is " + sum);
         } catch (NumberFormatException e) {
-            // Handle case where arguments are not valid integers
+            // Handle invalid input if the arguments are not integers
             System.out.println("Invalid input. Please enter valid integers.");
         }
     }
 }
 ```
 
-### Explanation:
-
-- **Class Documentation**: The class-level comment (`/** ... */`) provides an overview of the functionality of the `Add` class, including usage instructions and expected behavior.
-  
-- **Method Documentation**: The `main` method is documented to explain its purpose, the expected input (command-line arguments), and its behavior.
-
-- **Error Handling**: Comments explain the purpose of error handling, such as checking the number of arguments and catching exceptions when arguments are not valid integers.
-
-This documentation makes the code more understandable and helps users and developers grasp its functionality quickly.
+Explanation:
+- This program demonstrates the addition of two integers provided as command-line arguments.
+- The `main` method checks if exactly two arguments are provided, then parses them as integers.
+- It handles the case where invalid (non-integer) inputs are given by catching the `NumberFormatException`.
+- The sum of the integers is printed if valid inputs are given.
