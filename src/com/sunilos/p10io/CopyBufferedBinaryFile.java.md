@@ -1,4 +1,3 @@
-Here’s your Java code with added comments and explanations:
 
 ```java
 package com.sunilos.p10io;
@@ -61,4 +60,3 @@ public class CopyBufferedBinaryFile {
 - **Reading and Writing Chunks**: The loop continues until no more bytes are read (i.e., `count` becomes 0). The `write` method writes the specified number of bytes from the buffer to the target file.
 - **Resource Management**: As in the previous example, it's important to close the streams to free system resources.
 
-If you have any questions or need further clarifications, let me know!
