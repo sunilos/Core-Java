@@ -1,4 +1,3 @@
-यहां `HomeLoan` क्लास का सरल हिंदी में अनुवाद है:
 
 ```java
 package com.sunilos.p06oop;
