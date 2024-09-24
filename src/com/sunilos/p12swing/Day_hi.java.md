@@ -1,4 +1,3 @@
-यहाँ `Day` एनम क्लास का सरल हिंदी में अनुवाद किया गया है:
 
 ```java
 package com.sunilos.p12swing;
