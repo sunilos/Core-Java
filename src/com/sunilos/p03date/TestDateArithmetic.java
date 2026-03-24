@@ -25,7 +25,7 @@ public class TestDateArithmetic {
 		// Set to the current time
 		cal.setTime(today);
 
-		// Get yesterday’s date
+		// Get yesterday's date
 		cal.add(Calendar.DATE, -1);
 
 		Date yesterday = cal.getTime();

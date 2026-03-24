@@ -24,7 +24,7 @@ public class TestHashSet {
 		s.add("Three");
 		s.add("Five");
 
-		// Print all elements using Iterator, It doesn’t maintain any order when
+		// Print all elements using Iterator, It doesn't maintain any order when
 		// iterate elements from it.
 		System.out.println("\nElements printed by Iterator");
 		Iterator it = s.iterator();
