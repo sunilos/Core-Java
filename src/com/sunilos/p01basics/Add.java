@@ -4,7 +4,7 @@ package com.sunilos.p01basics;
  * then parsing them into integer type for addition.
  * 
  * @version 1.1
- * @since 16 Nov 2014
+ * @since IIT Mandi 2026
  * @author Sunil Sahu
  * @Copyright (c) Sunil Sahu
  * @url www.sunilbooks.com
